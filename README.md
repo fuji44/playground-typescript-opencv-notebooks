@@ -1,4 +1,4 @@
-# playground-node-typescript-opencv
+# playground-typescript-opencv-notebooks
 
 This repository is a sample project of OpenCV.js coded in TypeScript in a Jupyter notebook.
 
