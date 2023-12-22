@@ -1,0 +1,19 @@
+{
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installTools": true,
+      "version": "os-provided"
+    }
+  },
+  "postCreateCommand": "sudo apt update && sudo apt install -y jupyter",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  }
+}

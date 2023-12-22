@@ -1,0 +1,19 @@
+{
+  "name": "playground-typescript-opencv-notebooks",
+  "version": "1.0.0",
+  "description": "This repository is a sample project of OpenCV.js coded in TypeScript in a Jupyter notebook",
+  "keywords": [
+    "opencv",
+    "typescript",
+    "jupyter",
+    "jupyter-notebooks"
+  ],
+  "author": "fuji44 <fuji.44mt@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@techstark/opencv-js": "4.8.0-release.10",
+    "jimp": "^0.22.10",
+    "tesseract.js": "^5.0.3",
+    "tslab": "^1.0.21"
+  }
+}
